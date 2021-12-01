@@ -9,11 +9,11 @@ Technologies in this project:Apollo(Graphql client), OkHttp, Coroutine, Room, Gl
 
 ## Structure
 
-The structure of the project:
-The architecture of the project is based on the DDD approach
-The Data layer used a repository pattern to return data from a remote server or DB(Offline first)
-The Presentation layer is based on the MVVM Architecture pattern
-and also other design patterns such as the Template method pattern and others.
+The structure of the project:<br /> 
+The architecture of the project is based on the DDD approach<br /> 
+The Data layer used a repository pattern to return data from a remote server or DB(Offline first)<br /> 
+The Presentation layer is based on the MVVM Architecture pattern<br /> 
+and also other design patterns such as the Template method pattern and others.<br /> 
 
 ## Build
 
