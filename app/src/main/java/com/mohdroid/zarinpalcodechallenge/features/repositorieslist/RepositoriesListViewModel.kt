@@ -1,5 +1,6 @@
 package com.mohdroid.zarinpalcodechallenge.features.repositorieslist
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
@@ -46,10 +47,12 @@ class RepositoriesListViewModel @Inject constructor(
     }
 
     fun onLoadMore() {
-        if (totalResult != 0) {
+        if (totalResult > 0) {
             val totalPage = totalResult / limit
             if (offset >= totalPage) return
         }
+        if (totalResult == 0) return
+        Log.i("repos", "onLoadMore: totalPages $totalResult , offset $offset")
         offset += 1
         getUserRepos()
     }

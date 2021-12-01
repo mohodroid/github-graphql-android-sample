@@ -14,6 +14,7 @@
         android:theme="@style/Theme.ZarinpalCodeChallenge">
         <activity
             android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
