@@ -16,5 +16,5 @@
     <dimen name="followers_text_size">20sp</dimen>
     <dimen name="large_margin">24dp</dimen>
     <dimen name="email_text_size">20sp</dimen>
-    <dimen name="rv_item_height">250dp</dimen>
+    <dimen name="rv_item_height">80dp</dimen>
 </resources>
