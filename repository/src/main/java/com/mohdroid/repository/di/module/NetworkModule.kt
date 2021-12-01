@@ -1,6 +1,7 @@
 package com.mohdroid.repository.di.module
 
 import com.apollographql.apollo.ApolloClient
+import com.mohdroid.domain.ConfigManager
 import com.mohdroid.repository.di.qualifier.BaseUrl
 import com.mohdroid.repository.di.qualifier.LogginInterceptor
 import com.mohdroid.repository.di.qualifier.RequestHeader
@@ -36,8 +37,9 @@ class NetworkModule {
     @Provides
     @RequestHeader
     fun provideRequestHeaderInterceptor(
+        configManager: ConfigManager
     ): Interceptor {
-        return RequestHeaderInterceptor()
+        return RequestHeaderInterceptor(configManager.apiHeader)
     }
 
     @Singleton

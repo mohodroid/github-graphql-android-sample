@@ -6,6 +6,7 @@ import com.mohdroid.repository.di.module.PersistentModule
 import com.mohdroid.repository.di.module.RepoModule
 import com.mohdroid.service.di.ServiceModule
 import com.mohdroid.zarinpalcodechallenge.MainActivity
+import com.mohdroid.zarinpalcodechallenge.di.module.ConfigManagerModule
 import com.mohdroid.zarinpalcodechallenge.di.module.ImageHelperModule
 import com.mohdroid.zarinpalcodechallenge.di.module.ViewModelModule
 import com.mohdroid.zarinpalcodechallenge.features.profile.UserProfileFragment
@@ -22,7 +23,8 @@ import javax.inject.Singleton
         PersistentModule::class,
         RepoModule::class,
         ViewModelModule::class,
-        ImageHelperModule::class
+        ImageHelperModule::class,
+        ConfigManagerModule::class
     ]
 )
 interface AppGraph {

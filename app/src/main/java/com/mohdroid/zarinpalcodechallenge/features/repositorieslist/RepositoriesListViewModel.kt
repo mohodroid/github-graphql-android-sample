@@ -16,7 +16,7 @@ class RepositoriesListViewModel @Inject constructor(
 ) : AbsViewModel() {
 
     private var offset: Int = 0 //page index
-    private val limit: Int = 4 // number items in each page
+    private val limit: Int = 10 // number items in each page
     private var totalResult = -1
 
     private val _showUserRepositories: MutableLiveData<RepositoryResponseService> =
