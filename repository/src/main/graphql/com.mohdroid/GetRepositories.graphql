@@ -1,0 +1,14 @@
+query GetRepositories($count:Int!, $after: String) {
+ viewer {
+   repositories(first: $count, after:$after) {
+    totalCount
+     edges {
+      cursor
+       node{
+        name
+        stargazerCount
+       }
+    }
+   }
+ }
+}

@@ -1,0 +1,13 @@
+query GetProfile {
+ viewer {
+     name
+     email
+     avatarUrl
+  		followers {
+       totalCount
+     }
+     following {
+       totalCount
+     }
+  }
+}
