@@ -1,0 +1,5 @@
+rootProject.name = "Zarinpal Code Challenge"
+include ':app'
+include ':repository'
+include ':domain'
+include ':service'
