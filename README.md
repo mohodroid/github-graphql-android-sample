@@ -4,8 +4,8 @@ A simple github client that indicates basic profile information and repositries 
 ##Summary
 Technologies in this project:Apollo(Graphql client), OkHttp, Coroutine, Room, Glide, Navigation Component, MVVM, Dagger Single Activity
 
-![alt text](https://github.com/mohodroid/github-graphql-android-sample/blob/main/screenshots/Screenshot_1638351438.png)
-![alt text](https://github.com/mohodroid/github-graphql-android-sample/blob/main/screenshots/Screenshot_1638351502.png)
+![alt text](https://github.com/mohodroid/github-graphql-android-sample/blob/main/arts/List.png)
+![alt text](https://github.com/mohodroid/github-graphql-android-sample/blob/main/arts/Profile.png)
 
 ##Structure
 The structure of the project:
