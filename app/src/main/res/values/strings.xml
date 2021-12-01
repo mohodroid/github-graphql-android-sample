@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Zarinpal Code Challenge</string>
+    <string name="fragment_profile">Profile</string>
+    <string name="fragment_user_repositories">repositories</string>
+    <string name="followers">%1$s followers - %2$s following</string>
+</resources>

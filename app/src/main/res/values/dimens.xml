@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_row_image_width">56dp</dimen>
+    <dimen name="item_row_image_height">56dp</dimen>
+    <dimen name="profile_image_height">100dp</dimen>
+    <dimen name="profile_image_width">100dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="spacing_micro">4dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="repo_name_text_size">16sp</dimen>
+    <dimen name="user_name_text_size">12sp</dimen>
+    <dimen name="repo_stars_text_size">12sp</dimen>
+    <dimen name="star_height">12dp</dimen>
+    <dimen name="star_width">12dp</dimen>
+    <dimen name="username_text_size">18sp</dimen>
+    <dimen name="followers_text_size">20sp</dimen>
+    <dimen name="large_margin">24dp</dimen>
+    <dimen name="email_text_size">20sp</dimen>
+    <dimen name="rv_item_height">250dp</dimen>
+</resources>
