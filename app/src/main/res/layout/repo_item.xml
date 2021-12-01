@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/rv_item_height">
+
+    <ImageView
+        android:id="@+id/star_image"
+        android:layout_width="@dimen/star_height"
+        android:layout_height="@dimen/star_width"
+        android:layout_margin="@dimen/margin_normal"
+        android:layout_marginStart="@dimen/spacing_micro"
+        android:layout_marginBottom="@dimen/spacing_micro"
+        android:background="@drawable/ic_star"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.mohdroid.zarinpalcodechallenge.utils.widget.TextViewCustomBold
+        android:id="@+id/repo_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/spacing_micro"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:lines="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/repo_name_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="notictactoe" />
+
+
+    <com.mohdroid.zarinpalcodechallenge.utils.widget.TextViewCustomBold
+        android:id="@+id/start_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_micro"
+        android:layout_marginEnd="@dimen/spacing_micro"
+        android:gravity="end"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/repo_stars_text_size"
+        app:layout_constraintBottom_toBottomOf="@id/star_image"
+        app:layout_constraintEnd_toStartOf="@id/star_image"
+        app:layout_constraintTop_toTopOf="@id/star_image"
+        tools:text="4.5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
